@@ -214,7 +214,7 @@ class LoadAndShowDappInfoActivity : AppCompatActivity() {
             AlertDialog.Builder(this)
                 .setMessage(methodName)
                 .setPositiveButton("OK") { dialog, which ->
-                    // 返回值：
+                    // todo need more code
                     approveRequest(id, "")
                 }
                 .setNegativeButton("Cancel") { dialog: DialogInterface?, which: Int ->
